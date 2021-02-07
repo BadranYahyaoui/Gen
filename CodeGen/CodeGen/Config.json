@@ -1,0 +1,67 @@
+{
+  "SnippetFolder": "C:/CodeGen/Source",
+  "BaseFolder": "C:/CodeGen",
+  "RequestSnippetName": "TestFindRequest.txt",
+  "RequestSnippetParams": "RequestPrams.txt",
+  "ResponseSnippetName": "TestFindResponse.txt",
+  "ResponseSnippetParam": "ResponsePram.txt",
+  "BusinessSnippetName": "TestFindRequest.txt",
+  "IbusinessSnippetName": "TestFindRequest.txt",
+  "ServiceSnippetName": "TestFindRequest.txt",
+  "IServiceSnippetName": "IserviceSnippet.txt",
+
+
+
+  "OperationBusinessResultFile": "Business.txt",
+  "OperationIBusinessResultFile": "Ibusiness.txt",
+  "OperationServiceResultFile": "Service.txt",
+  "OperationIServiceResultFile": "Iservice.txt",
+  "OperationApiControllerResultFile": "ApiController.txt",
+
+
+  "Operations": [
+    {
+      "OperationName": "GetStudent",
+      "RequestName": "StudentFindRequest",
+      "ResponseName": "StudentFindResponse",
+      //"ResponseParam": {},
+      "ModelPath": "C:/CodeGen/Source/Student.cs",
+      "Properties": [
+        {
+          "propertyName": "Name",
+          "propertyType": "string"
+        },
+        {
+          "propertyName": "Grade",
+          "propertyType": "double?"
+        },
+        {
+          "propertyName": "Adress",
+          "propertyType": "string"
+        }
+      ]
+    },
+    {
+      "OperationName": "GetTeacher",
+      "RequestName": "TeacherFindRequest",
+      "ModelPath": "C:/CodeGen/Source/Teacher.cs",
+      "ResponseName": "TeacherFindResponse",
+      "ResponseParam": {
+        "propertyName": "teacher",
+        "propertyType": "Teacher"
+      },
+      "Properties": [
+        {
+          "propertyName": "TeacherName",
+          "propertyType": "string"
+        },
+        {
+          "propertyName": "TeacherAdress",
+          "propertyType": "string"
+        }
+      ]
+    }
+  ]
+
+}
+

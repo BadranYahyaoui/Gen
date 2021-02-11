@@ -1,0 +1,53 @@
+  [HttpPost]
+        [AllowAnonymous]
+        [ActionName("F_LANCE_VRP_WEB")]
+        public virtual VrpModelFindResponse F_LANCE_VRP_WEB(VrpModelFindRequest request)
+        {
+            try
+            {
+                VrpModelFindResponse rs = GetInstance<ICoreServices>().F_LANCE_VRP_WEB(request);
+                return rs;
+            }
+            catch (Exception exp)
+            {
+                LogError(exp);
+                return new VrpModelFindResponse() { Exception = exp };
+            }
+        }
+        
+        
+        
+        
+                VrpModelFindResponse F_LANCE_VRP_WEB(VrpModelFindRequest request);
+
+
+
+
+ public VrpModelFindResponse F_LANCE_VRP_WEB(VrpModelFindRequest request)
+        {
+            return new VrpModelFindResponse
+            {
+                vrpModel = GetInstance<ICoreBusinessServices>().F_LANCE_VRP_WEB(request.num_adhesion)
+            };
+        }
+        
+        
+                IList<SeuilDesinModel> SEUIL_MAX_DESINV(string num_contrat, string code_module);
+                
+  public IList<SeuilDesinModel> SEUIL_MAX_DESINV(string num_contrat, string code_module)
+        {
+            var dap = new NHibernateDataAccessServicesProvider { SessionFactoryName = "default" };
+            var session = dap.SessionFactory.OpenSession();
+            try
+            {
+                IQuery query = session.GetNamedQuery("SeuilMax");
+                query.SetParameter("p_num_contrat", num_contrat);
+                query.SetParameter("LS_CODE_MODULE", code_module);
+                return query.List<SeuilDesinModel>();
+
+            }
+            finally
+            {
+                session.Dispose();
+            }
+        }

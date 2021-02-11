@@ -1,0 +1,80 @@
+        [HttpPost]
+        [AllowAnonymous]
+        [ActionName("GetStudent")]
+        public virtual StudentFindResponse #operationName#(StudentFindRequest request)
+        {
+            try
+            {
+                StudentFindResponse rs = GetInstance<ICoreServices>GetStudent(request);
+                return rs;
+            }
+            catch (Exception exp)
+            {
+                LogError(exp);
+                return new StudentFindResponse() { Exception = exp };
+            }
+        }
+        [HttpPost]
+        [AllowAnonymous]
+        [ActionName("GetTeacher")]
+        public virtual TeacherFindResponse #operationName#(TeacherFindRequest request)
+        {
+            try
+            {
+                TeacherFindResponse rs = GetInstance<ICoreServices>GetTeacher(request);
+                return rs;
+            }
+            catch (Exception exp)
+            {
+                LogError(exp);
+                return new TeacherFindResponse() { Exception = exp };
+            }
+        }
+        [HttpPost]
+        [AllowAnonymous]
+        [ActionName("GetStudent")]
+        public virtual StudentFindResponse #operationName#(StudentFindRequest request)
+        {
+            try
+            {
+                StudentFindResponse rs = GetInstance<ICoreServices>GetStudent(request);
+                return rs;
+            }
+            catch (Exception exp)
+            {
+                LogError(exp);
+                return new StudentFindResponse() { Exception = exp };
+            }
+        }
+        [HttpPost]
+        [AllowAnonymous]
+        [ActionName("GetTeacher")]
+        public virtual TeacherFindResponse #operationName#(TeacherFindRequest request)
+        {
+            try
+            {
+                TeacherFindResponse rs = GetInstance<ICoreServices>GetTeacher(request);
+                return rs;
+            }
+            catch (Exception exp)
+            {
+                LogError(exp);
+                return new TeacherFindResponse() { Exception = exp };
+            }
+        }
+        [HttpPost]
+        [AllowAnonymous]
+        [ActionName("GetStudent")]
+        public virtual StudentFindResponse #operationName#(StudentFindRequest request)
+        {
+            try
+            {
+                StudentFindResponse rs = GetInstance<ICoreServices>GetStudent(request);
+                return rs;
+            }
+            catch (Exception exp)
+            {
+                LogError(exp);
+                return new StudentFindResponse() { Exception = exp };
+            }
+        }

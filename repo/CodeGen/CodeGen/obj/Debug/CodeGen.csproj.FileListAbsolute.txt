@@ -1,0 +1,10 @@
+C:\Users\uzer\source\repos\CodeGen\CodeGen\bin\Debug\CodeGen.exe.config
+C:\Users\uzer\source\repos\CodeGen\CodeGen\bin\Debug\CodeGen.exe
+C:\Users\uzer\source\repos\CodeGen\CodeGen\bin\Debug\CodeGen.pdb
+C:\Users\uzer\source\repos\CodeGen\CodeGen\obj\Debug\CodeGen.csprojAssemblyReference.cache
+C:\Users\uzer\source\repos\CodeGen\CodeGen\obj\Debug\CodeGen.csproj.CoreCompileInputs.cache
+C:\Users\uzer\source\repos\CodeGen\CodeGen\obj\Debug\CodeGen.exe
+C:\Users\uzer\source\repos\CodeGen\CodeGen\obj\Debug\CodeGen.pdb
+C:\Users\uzer\source\repos\CodeGen\CodeGen\bin\Debug\Newtonsoft.Json.dll
+C:\Users\uzer\source\repos\CodeGen\CodeGen\bin\Debug\Newtonsoft.Json.xml
+C:\Users\uzer\source\repos\CodeGen\CodeGen\obj\Debug\CodeGen.csproj.CopyComplete

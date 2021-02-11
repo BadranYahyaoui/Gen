@@ -1,0 +1,28 @@
+public  IList<Student> GetStudent(string Name,double? Grade,string Adress)
+        {
+           
+        }
+public Teacher teacher GetTeacher(string TeacherName,string TeacherAdress)
+        {
+           
+        }
+public  IList<Student> GetStudent(string Name,double? Grade,string Adress)
+        {
+           
+        }
+public Teacher teacher GetTeacher()
+        {
+           
+        }
+public  IList<Student> GetStudent(string Name,double? Grade,string Adress)
+        {
+           
+        }
+public  IList<Student> GetStudent(string Name,double? Grade,string Adress)
+        {
+           
+        }
+public Teacher teacher GetTeacher()
+        {
+           
+        }

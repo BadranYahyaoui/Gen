@@ -1,0 +1,51 @@
+                  IList<Student> GetStudent(request.Name,request.Grade,request.Adress,);
+
+
+                 Teacher teacher GetTeacher(request.TeacherName,request.TeacherAdress,);
+
+
+
+                  IList<Student> GetStudent(string Name,double? Grade,string Adress,);
+
+
+
+                 Teacher teacher GetTeacher(string TeacherName,string TeacherAdress,);
+
+
+
+                  IList<Student> GetStudent(string Name,double? Grade,string Adress);
+
+
+
+                 Teacher teacher GetTeacher(string TeacherName,string TeacherAdress);
+
+
+
+                  IList<Student> GetStudent(string Name,double? Grade,string Adress);
+
+
+
+                 Teacher teacher GetTeacher(string TeacherName,string TeacherAdress);
+
+
+
+                  IList<Student> GetStudent(string Name,double? Grade,string Adress);
+
+
+
+                 Teacher teacher GetTeacher();
+
+
+
+                  IList<Student> GetStudent(string Name,double? Grade,string Adress);
+
+
+
+                  IList<Student> GetStudent(string Name,double? Grade,string Adress);
+
+
+
+                 Teacher teacher GetTeacher();
+
+
+

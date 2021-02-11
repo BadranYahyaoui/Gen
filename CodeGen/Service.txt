@@ -1,0 +1,91 @@
+public StudentFindResponse GetStudent(StudentFindRequest request)
+        {
+            return new StudentFindResponse
+            {
+                Values  = GetInstance<ICoreBusinessServices>().GetStudent(request.Name,request.Grade,request.Adress,)
+            };
+        }
+public TeacherFindResponse GetTeacher(TeacherFindRequest request)
+        {
+            return new TeacherFindResponse
+            {
+                Teacher teacher  = GetInstance<ICoreBusinessServices>().GetTeacher(request.TeacherName,request.TeacherAdress,)
+            };
+        }
+public StudentFindResponse GetStudent(StudentFindRequest request)
+        {
+            return new StudentFindResponse
+            {
+                Values  = GetInstance<ICoreBusinessServices>().GetStudent(request.Name,request.Grade,request.Adress,)
+            };
+        }
+public TeacherFindResponse GetTeacher(TeacherFindRequest request)
+        {
+            return new TeacherFindResponse
+            {
+                Teacher teacher  = GetInstance<ICoreBusinessServices>().GetTeacher(request.TeacherName,request.TeacherAdress,)
+            };
+        }
+public StudentFindResponse GetStudent(StudentFindRequest request)
+        {
+            return new StudentFindResponse
+            {
+                Values  = GetInstance<ICoreBusinessServices>().GetStudent(request.Name,request.Grade,request.Adress,)
+            };
+        }
+public TeacherFindResponse GetTeacher(TeacherFindRequest request)
+        {
+            return new TeacherFindResponse
+            {
+                Teacher teacher  = GetInstance<ICoreBusinessServices>().GetTeacher(request.TeacherName,request.TeacherAdress,)
+            };
+        }
+public StudentFindResponse GetStudent(StudentFindRequest request)
+        {
+            return new StudentFindResponse
+            {
+                Values  = GetInstance<ICoreBusinessServices>().GetStudent(request.Name,request.Grade,request.Adress,)
+            };
+        }
+public TeacherFindResponse GetTeacher(TeacherFindRequest request)
+        {
+            return new TeacherFindResponse
+            {
+                Teacher teacher  = GetInstance<ICoreBusinessServices>().GetTeacher(request.TeacherName,request.TeacherAdress,)
+            };
+        }
+public StudentFindResponse GetStudent(StudentFindRequest request)
+        {
+            return new StudentFindResponse
+            {
+                Values  = GetInstance<ICoreBusinessServices>().GetStudent(request.Name,request.Grade,request.Adress,)
+            };
+        }
+public TeacherFindResponse GetTeacher(TeacherFindRequest request)
+        {
+            return new TeacherFindResponse
+            {
+                Teacher teacher  = GetInstance<ICoreBusinessServices>().GetTeacher()
+            };
+        }
+public StudentFindResponse GetStudent(StudentFindRequest request)
+        {
+            return new StudentFindResponse
+            {
+                Values  = GetInstance<ICoreBusinessServices>().GetStudent(request.Name,request.Grade,request.Adress,)
+            };
+        }
+public StudentFindResponse GetStudent(StudentFindRequest request)
+        {
+            return new StudentFindResponse
+            {
+                Values  = GetInstance<ICoreBusinessServices>().GetStudent(request.Name,request.Grade,request.Adress,)
+            };
+        }
+public TeacherFindResponse GetTeacher(TeacherFindRequest request)
+        {
+            return new TeacherFindResponse
+            {
+                Teacher teacher  = GetInstance<ICoreBusinessServices>().GetTeacher()
+            };
+        }

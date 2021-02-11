@@ -1,0 +1,4 @@
+public #ModelName# #OperationName#(#params#)
+        {
+           
+        }

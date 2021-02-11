@@ -1,0 +1,118 @@
+                 StudentFindResponse GetStudent(StudentFindRequest  request);
+
+                 TeacherFindResponse GetTeacher(TeacherFindRequest  request);
+
+
+
+                 StudentFindResponse GetStudent(StudentFindRequest  request);
+
+
+
+                 StudentFindResponse GetStudent(StudentFindRequest  request);
+
+
+
+                 TeacherFindResponse GetTeacher(TeacherFindRequest  request);
+
+
+
+                 StudentFindResponse GetStudent(StudentFindRequest  request);
+
+
+
+                 TeacherFindResponse GetTeacher(TeacherFindRequest  request);
+
+
+
+                 StudentFindResponse GetStudent(StudentFindRequest  request);
+
+
+
+                 TeacherFindResponse GetTeacher(TeacherFindRequest  request);
+
+
+
+                 StudentFindResponse GetStudent(StudentFindRequest  request);
+
+
+
+                 TeacherFindResponse GetTeacher(TeacherFindRequest  request);
+
+
+
+                 StudentFindResponse GetStudent(StudentFindRequest  request);
+
+
+
+                 TeacherFindResponse GetTeacher(TeacherFindRequest  request);
+
+
+
+                 StudentFindResponse GetStudent(StudentFindRequest  request);
+
+
+
+                 TeacherFindResponse GetTeacher(TeacherFindRequest  request);
+
+
+
+                 StudentFindResponse GetStudent(StudentFindRequest  request);
+
+
+
+                 TeacherFindResponse GetTeacher(TeacherFindRequest  request);
+
+
+
+                 StudentFindResponse GetStudent(StudentFindRequest  request);
+
+
+
+                 TeacherFindResponse GetTeacher(TeacherFindRequest  request);
+
+
+
+                 StudentFindResponse GetStudent(StudentFindRequest  request);
+
+
+
+                 TeacherFindResponse GetTeacher(TeacherFindRequest  request);
+
+
+
+                 StudentFindResponse GetStudent(StudentFindRequest  request);
+
+
+
+                 TeacherFindResponse GetTeacher(TeacherFindRequest  request);
+
+
+
+                 StudentFindResponse GetStudent(StudentFindRequest  request);
+
+
+
+                 TeacherFindResponse GetTeacher(TeacherFindRequest  request);
+
+
+
+                 StudentFindResponse GetStudent(StudentFindRequest  request);
+
+
+
+                 TeacherFindResponse GetTeacher(TeacherFindRequest  request);
+
+
+
+                 StudentFindResponse GetStudent(StudentFindRequest  request);
+
+
+
+                 StudentFindResponse GetStudent(StudentFindRequest  request);
+
+
+
+                 TeacherFindResponse GetTeacher(TeacherFindRequest  request);
+
+
+

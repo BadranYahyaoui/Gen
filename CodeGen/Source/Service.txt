@@ -1,0 +1,7 @@
+public #ResponseName# #OperationName#(#RequestName# request)
+        {
+            return new #ResponseName#
+            {
+                #ModelName#  = GetInstance<ICoreBusinessServices>().#OperationName#(#params#)
+            };
+        }

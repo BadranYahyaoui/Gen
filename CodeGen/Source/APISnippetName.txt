@@ -1,0 +1,16 @@
+        [HttpPost]
+        [AllowAnonymous]
+        [ActionName("#OperationName#")]
+        public virtual #ResponseName# #OperationName#(#RequestName# request)
+        {
+            try
+            {
+                #ResponseName# rs = GetInstance<ICoreServices>#OperationName#(request);
+                return rs;
+            }
+            catch (Exception exp)
+            {
+                LogError(exp);
+                return new #ResponseName#() { Exception = exp };
+            }
+        }
